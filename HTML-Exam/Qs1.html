@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Question 1</title>
+</head>
+
+<body bgcolor="pink">
+    <center>
+    <form>
+        <font color="purple"><h2>Information of An Article</h2></font>
+        <table cellspacing="10">
+            <tr>
+                <td>Author Name:</td>
+                <td><input type="text" name="aname" placeholder="Enter author name" required></td>
+            </tr>
+            <tr>
+                <td>Type: </td>
+                <td><input type="radio" name="type">Technical
+                <input type="radio" name="type">Literary
+            <input type="radio" name="type">General</td>
+            </tr>
+            
+
+                <tr>
+                    <td>Keywords:</td>
+                    <td><input type="checkbox">Blockchain
+                    <input type="checkbox" >Programming
+                <input type="checkbox">Computer Basics
+            <input type="checkbox">Art
+        <input type="checkbox">Cultural</td>
+                </tr>
+            </tr>
+            <tr>
+                <td>Topic: </td>
+                <td><select required>
+                    <option value="select">---select---</option>
+                    <option value="topic1">Topic 1</option>
+                    <option value="topic2">Topic 2</option>
+                    <option value="topic3">Topic 3</option>
+                </select></td>
+            </tr>
+            <tr>
+                <td>Date of Publishing:</td>
+                <td><input type="date" required></td>
+            </tr>
+            <tr>
+                <td>Short Description: </td>
+                <td><textarea rows="4" cols="20" required></textarea></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td><input type="submit" value="Submit">
+                <input type="reset" value="Reset"></td>
+            </tr>
+        </table>
+    </form>
+</center>
+</body>
+
+</html>
