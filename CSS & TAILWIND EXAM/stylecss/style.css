@@ -1,0 +1,17 @@
+.textChange {
+    text-align: justify;
+    border: 1px solid red;
+}
+
+#item1 {
+    background-color: brown;
+}
+
+.pt { text-align :center; color : green; text-shadow : 2px 2px red; text-transform : uppercase;}
+
+
+.transf{
+text-align: center;
+background-color: blue;
+
+}
