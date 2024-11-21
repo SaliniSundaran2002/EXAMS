@@ -1,0 +1,10 @@
+1. Create Appointment Scheduling system Application for Hospitals. It should have the token ID, Patient Name, Doctor Name, Appointment Date and Time
+It should handle all the 4 REST API Methods with database connectivity. 
+  	GET
+    POST
+    PUT
+    DELETE
+
+It should also display all the token details for a particular doctor.
+
+
